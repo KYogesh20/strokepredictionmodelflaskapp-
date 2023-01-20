@@ -48,6 +48,7 @@ def result():
     else:
         return jsonify({'Have chance of getting stroke': str(Y_pred)})
 
+
 # new changes has been done what the hell is this
 if __name__ == '__main__':
     app.run(debug=True)
